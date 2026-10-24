@@ -1,0 +1,18 @@
+{
+  "LRfull_minus_LRpruned_at30_repeated": {
+    "label": "LRfull-LRpruned@30%",
+    "n": 50,
+    "mean_diff": 0.0124,
+    "std_diff": 0.012,
+    "paired_t_p": 2.5739934518872754e-09,
+    "wilcoxon_p": 3.64396162703545e-08
+  },
+  "LR_minus_HGB_at50_repeated": {
+    "label": "LR-HGB@50%",
+    "n": 50,
+    "mean_diff": 0.0111,
+    "std_diff": 0.0135,
+    "paired_t_p": 5.7549198737448e-07,
+    "wilcoxon_p": 9.59724863145825e-06
+  }
+}

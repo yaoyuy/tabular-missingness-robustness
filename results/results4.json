@@ -1,0 +1,222 @@
+{
+  "WDBC_fill_control_AUC": {
+    "median": {
+      "LR": {
+        "0": "0.9953 +- 0.0053",
+        "0.1": "0.9941 +- 0.0059",
+        "0.3": "0.9902 +- 0.0072",
+        "0.5": "0.9808 +- 0.0105"
+      },
+      "RF": {
+        "0": "0.9895 +- 0.0077",
+        "0.1": "0.9878 +- 0.0089",
+        "0.3": "0.9864 +- 0.0080",
+        "0.5": "0.9687 +- 0.0200"
+      }
+    },
+    "KNN_k5": {
+      "LR": {
+        "0": "0.9953 +- 0.0053",
+        "0.1": "0.9944 +- 0.0055",
+        "0.3": "0.9938 +- 0.0051",
+        "0.5": "0.9939 +- 0.0038"
+      },
+      "RF": {
+        "0": "0.9895 +- 0.0077",
+        "0.1": "0.9911 +- 0.0050",
+        "0.3": "0.9855 +- 0.0079",
+        "0.5": "0.9812 +- 0.0132"
+      }
+    },
+    "Iterative": {
+      "LR": {
+        "0": "0.9953 +- 0.0053",
+        "0.1": "0.9948 +- 0.0056",
+        "0.3": "0.9941 +- 0.0042",
+        "0.5": "0.9894 +- 0.0084"
+      },
+      "RF": {
+        "0": "0.9895 +- 0.0077",
+        "0.1": "0.9900 +- 0.0060",
+        "0.3": "0.9894 +- 0.0059",
+        "0.5": "0.9844 +- 0.0074"
+      }
+    }
+  },
+  "Wine_fill_control_Accuracy_LR": {
+    "median": {
+      "LR": {
+        "0": "0.9833 +- 0.0136",
+        "0.1": "0.9552 +- 0.0220",
+        "0.3": "0.9159 +- 0.0302",
+        "0.5": "0.8314 +- 0.0177"
+      }
+    },
+    "KNN_k5": {
+      "LR": {
+        "0": "0.9833 +- 0.0136",
+        "0.1": "0.9663 +- 0.0110",
+        "0.3": "0.9495 +- 0.0207",
+        "0.5": "0.9325 +- 0.0456"
+      }
+    }
+  },
+  "Digits_fill_control_Accuracy_LR": {
+    "median": {
+      "LR": {
+        "0": "0.9711 +- 0.0037",
+        "0.1": "0.9416 +- 0.0056",
+        "0.3": "0.8475 +- 0.0142",
+        "0.5": "0.6850 +- 0.0332"
+      }
+    },
+    "KNN_k5": {
+      "LR": {
+        "0": "0.9711 +- 0.0037",
+        "0.1": "0.9661 +- 0.0011",
+        "0.3": "0.9577 +- 0.0065",
+        "0.5": "0.9393 +- 0.0095"
+      }
+    }
+  },
+  "Ionosphere_fill_control_AUC_LR": {
+    "median": {
+      "LR": {
+        "0": "0.8963 +- 0.0646",
+        "0.1": "0.8902 +- 0.0509",
+        "0.3": "0.8621 +- 0.0459",
+        "0.5": "0.8169 +- 0.0166"
+      }
+    },
+    "KNN_k5": {
+      "LR": {
+        "0": "0.8963 +- 0.0646",
+        "0.1": "0.9073 +- 0.0512",
+        "0.3": "0.8978 +- 0.0349",
+        "0.5": "0.8977 +- 0.0184"
+      }
+    }
+  },
+  "WDBC_stability": {
+    "top8_selection_count_out_of_5": {
+      "mean radius": 5,
+      "mean perimeter": 5,
+      "mean concave points": 5,
+      "worst radius": 5,
+      "worst perimeter": 5,
+      "worst area": 5,
+      "worst concave points": 5,
+      "mean area": 3,
+      "mean concavity": 2
+    },
+    "top12_selection_count_out_of_5": {
+      "mean radius": 5,
+      "mean perimeter": 5,
+      "mean area": 5,
+      "mean concavity": 5,
+      "mean concave points": 5,
+      "area error": 5,
+      "worst radius": 5,
+      "worst perimeter": 5,
+      "worst area": 5,
+      "worst concavity": 5,
+      "worst concave points": 5,
+      "worst texture": 2,
+      "radius error": 2,
+      "worst compactness": 1
+    },
+    "top8_pairwise_jaccard_mean_std": [
+      0.8667,
+      0.1089
+    ],
+    "top12_pairwise_jaccard_mean_std": [
+      0.8769,
+      0.0615
+    ],
+    "top8_intersection_all_folds": [
+      "mean concave points",
+      "mean perimeter",
+      "mean radius",
+      "worst area",
+      "worst concave points",
+      "worst perimeter",
+      "worst radius"
+    ],
+    "top12_intersection_all_folds": [
+      "area error",
+      "mean area",
+      "mean concave points",
+      "mean concavity",
+      "mean perimeter",
+      "mean radius",
+      "worst area",
+      "worst concave points",
+      "worst concavity",
+      "worst perimeter",
+      "worst radius"
+    ],
+    "LR_permutation_importance_AUC_drop_mean_std_top12": [
+      {
+        "feature": "worst texture",
+        "mean": 0.0055,
+        "std": 0.0025
+      },
+      {
+        "feature": "worst symmetry",
+        "mean": 0.0032,
+        "std": 0.0039
+      },
+      {
+        "feature": "radius error",
+        "mean": 0.0031,
+        "std": 0.002
+      },
+      {
+        "feature": "compactness error",
+        "mean": 0.002,
+        "std": 0.0031
+      },
+      {
+        "feature": "mean concave points",
+        "mean": 0.0019,
+        "std": 0.0018
+      },
+      {
+        "feature": "worst concavity",
+        "mean": 0.0018,
+        "std": 0.0025
+      },
+      {
+        "feature": "mean concavity",
+        "mean": 0.0017,
+        "std": 0.0018
+      },
+      {
+        "feature": "worst radius",
+        "mean": 0.0017,
+        "std": 0.0012
+      },
+      {
+        "feature": "worst area",
+        "mean": 0.0016,
+        "std": 0.0009
+      },
+      {
+        "feature": "area error",
+        "mean": 0.0014,
+        "std": 0.0011
+      },
+      {
+        "feature": "worst concave points",
+        "mean": 0.0013,
+        "std": 0.0015
+      },
+      {
+        "feature": "fractal dimension error",
+        "mean": 0.0013,
+        "std": 0.0027
+      }
+    ],
+    "LR_permutation_importance_max_mean": 0.0055
+  }
+}

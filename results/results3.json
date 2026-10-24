@@ -1,0 +1,159 @@
+{
+  "Digits (sklearn, 1797x64, 10 classes)": {
+    "shape": [
+      1797,
+      64
+    ],
+    "classes": 10,
+    "class_counts": [
+      178,
+      182,
+      177,
+      183,
+      181,
+      182,
+      181,
+      179,
+      174,
+      180
+    ],
+    "LR": {
+      "metric": "Accuracy",
+      "clean": "0.9711 ± 0.0037",
+      "miss30": "0.8475 ± 0.0142",
+      "drop": "0.1235"
+    },
+    "RF": {
+      "metric": "Accuracy",
+      "clean": "0.9794 ± 0.0049",
+      "miss30": "0.8575 ± 0.0228",
+      "drop": "0.1219"
+    },
+    "HGB": {
+      "metric": "Accuracy",
+      "clean": "0.9755 ± 0.0048",
+      "miss30": "0.7830 ± 0.0189",
+      "drop": "0.1926"
+    }
+  },
+  "Pima Diabetes (UCI, 768x8, binary)": "DOWNLOAD_FAILED: HTTP Error 404: Not Found",
+  "Heart Cleveland (UCI, 303x13, 5 classes 0-4)": {
+    "shape": [
+      297,
+      13
+    ],
+    "classes": 5,
+    "class_counts": [
+      160,
+      54,
+      35,
+      35,
+      13
+    ],
+    "LR": {
+      "metric": "Accuracy",
+      "clean": "0.5757 ± 0.0345",
+      "miss30": "0.5487 ± 0.0220",
+      "drop": "0.0270"
+    },
+    "RF": {
+      "metric": "Accuracy",
+      "clean": "0.5659 ± 0.0329",
+      "miss30": "0.5523 ± 0.0211",
+      "drop": "0.0136"
+    },
+    "HGB": {
+      "metric": "Accuracy",
+      "clean": "0.5655 ± 0.0450",
+      "miss30": "0.5351 ± 0.0286",
+      "drop": "0.0304"
+    }
+  },
+  "Ionosphere (UCI, 351x34, binary)": {
+    "shape": [
+      351,
+      34
+    ],
+    "classes": 2,
+    "class_counts": [
+      126,
+      225
+    ],
+    "LR": {
+      "metric": "AUC",
+      "clean": "0.8963 ± 0.0646",
+      "miss30": "0.8621 ± 0.0459",
+      "drop": "0.0343"
+    },
+    "RF": {
+      "metric": "AUC",
+      "clean": "0.9797 ± 0.0124",
+      "miss30": "0.9619 ± 0.0143",
+      "drop": "0.0178"
+    },
+    "HGB": {
+      "metric": "AUC",
+      "clean": "0.9685 ± 0.0190",
+      "miss30": "0.9470 ± 0.0151",
+      "drop": "0.0214"
+    }
+  },
+  "Sonar (UCI, 208x60, binary)": {
+    "shape": [
+      208,
+      60
+    ],
+    "classes": 2,
+    "class_counts": [
+      111,
+      97
+    ],
+    "LR": {
+      "metric": "AUC",
+      "clean": "0.8453 ± 0.0537",
+      "miss30": "0.7854 ± 0.0539",
+      "drop": "0.0599"
+    },
+    "RF": {
+      "metric": "AUC",
+      "clean": "0.9270 ± 0.0363",
+      "miss30": "0.8921 ± 0.0570",
+      "drop": "0.0350"
+    },
+    "HGB": {
+      "metric": "AUC",
+      "clean": "0.9347 ± 0.0466",
+      "miss30": "0.8774 ± 0.0694",
+      "drop": "0.0573"
+    }
+  },
+  "Banknote (UCI, 1372x4, binary)": {
+    "shape": [
+      1372,
+      4
+    ],
+    "classes": 2,
+    "class_counts": [
+      762,
+      610
+    ],
+    "LR": {
+      "metric": "AUC",
+      "clean": "0.9996 ± 0.0003",
+      "miss30": "0.8793 ± 0.0219",
+      "drop": "0.1203"
+    },
+    "RF": {
+      "metric": "AUC",
+      "clean": "0.9999 ± 0.0001",
+      "miss30": "0.9262 ± 0.0161",
+      "drop": "0.0737"
+    },
+    "HGB": {
+      "metric": "AUC",
+      "clean": "0.9999 ± 0.0001",
+      "miss30": "0.9066 ± 0.0188",
+      "drop": "0.0933"
+    }
+  }
+}

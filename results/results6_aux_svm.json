@@ -1,0 +1,26 @@
+{
+  "Wine_SVM": {
+    "metric": "Accuracy",
+    "clean": "0.9833 +- 0.0222",
+    "miss30": "0.9270 +- 0.0136",
+    "drop": "0.0563"
+  },
+  "Digits_SVM": {
+    "metric": "Accuracy",
+    "clean": "0.9839 +- 0.0060",
+    "miss30": "0.8909 +- 0.0191",
+    "drop": "0.0929"
+  },
+  "Ionosphere_SVM": {
+    "metric": "AUC",
+    "clean": "0.9810 +- 0.0134",
+    "miss30": "0.9531 +- 0.0130",
+    "drop": "0.0280"
+  },
+  "Heart_binary_SVM": {
+    "metric": "AUC",
+    "clean": "0.8919 +- 0.0432",
+    "miss30": "0.8626 +- 0.0472",
+    "drop": "0.0293"
+  }
+}

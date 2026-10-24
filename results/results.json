@@ -1,0 +1,110 @@
+{
+  "clean": {
+    "LogisticRegression": {
+      "acc": "0.9737 ± 0.0166",
+      "f1": "0.9633 ± 0.0240",
+      "auc": "0.9953 ± 0.0053"
+    },
+    "RandomForest": {
+      "acc": "0.9526 ± 0.0131",
+      "f1": "0.9355 ± 0.0194",
+      "auc": "0.9895 ± 0.0077"
+    },
+    "HistGradientBoosting": {
+      "acc": "0.9666 ± 0.0129",
+      "f1": "0.9544 ± 0.0183",
+      "auc": "0.9925 ± 0.0059"
+    },
+    "SVM_RBF": {
+      "acc": "0.9772 ± 0.0163",
+      "f1": "0.9688 ± 0.0222",
+      "auc": "0.9945 ± 0.0060"
+    }
+  },
+  "robust_auc": {
+    "LogisticRegression": {
+      "0": "0.9953 ± 0.0053",
+      "0.1": "0.9941 ± 0.0059",
+      "0.3": "0.9902 ± 0.0072",
+      "0.5": "0.9808 ± 0.0105"
+    },
+    "RandomForest": {
+      "0": "0.9895 ± 0.0077",
+      "0.1": "0.9878 ± 0.0089",
+      "0.3": "0.9864 ± 0.0080",
+      "0.5": "0.9687 ± 0.0200"
+    },
+    "HistGradientBoosting": {
+      "0": "0.9925 ± 0.0059",
+      "0.1": "0.9911 ± 0.0075",
+      "0.3": "0.9830 ± 0.0102",
+      "0.5": "0.9660 ± 0.0161"
+    },
+    "SVM_RBF": {
+      "0": "0.9945 ± 0.0060",
+      "0.1": "0.9937 ± 0.0070",
+      "0.3": "0.9898 ± 0.0094",
+      "0.5": "0.9805 ± 0.0114"
+    }
+  },
+  "pruned_clean_auc": {
+    "RF_top8": "0.9833 ± 0.0102",
+    "LR_top8": "0.9895 ± 0.0085"
+  },
+  "pruned_robust30_auc": {
+    "RF_top8": "0.9744 ± 0.0145",
+    "LR_top8": "0.9866 ± 0.0066"
+  },
+  "top8_per_fold": [
+    [
+      "worst area",
+      "worst perimeter",
+      "worst concave points",
+      "mean concave points",
+      "worst radius",
+      "mean radius",
+      "mean area",
+      "mean perimeter"
+    ],
+    [
+      "worst area",
+      "worst perimeter",
+      "worst concave points",
+      "mean concave points",
+      "worst radius",
+      "mean radius",
+      "mean perimeter",
+      "mean area"
+    ],
+    [
+      "worst perimeter",
+      "worst area",
+      "mean concave points",
+      "worst concave points",
+      "worst radius",
+      "mean radius",
+      "mean perimeter",
+      "mean area"
+    ],
+    [
+      "worst perimeter",
+      "worst area",
+      "worst concave points",
+      "mean concave points",
+      "mean concavity",
+      "worst radius",
+      "mean radius",
+      "mean perimeter"
+    ],
+    [
+      "worst area",
+      "worst perimeter",
+      "worst concave points",
+      "mean concave points",
+      "worst radius",
+      "mean radius",
+      "mean concavity",
+      "mean perimeter"
+    ]
+  ]
+}
