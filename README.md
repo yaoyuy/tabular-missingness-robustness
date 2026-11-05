@@ -1,8 +1,8 @@
 # Robustness of Interpretable Tabular Classifiers under Random Feature Missingness
 
-Reproduction code for the manuscript of the same title (prepared for submission to the
-Vietnam Journal of Computer Science; this repository contains code, results
-and figures only, not the manuscript itself).
+Reproduction code for the manuscript of the same title (the manuscript is under peer
+review; this repository contains code, results and figures only, not the manuscript
+itself).
 
 ## What this repository is — and is not
 
